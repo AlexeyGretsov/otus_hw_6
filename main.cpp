@@ -30,7 +30,6 @@ int main(int argc, char *argv[]) {
 
   std::cout << "Size: " << matrix.size() << std::endl;
 
-
   // std::vector<std::tuple<size_t, size_t, int>> v;
 
   // v.push_back(std::make_tuple(10000, 10000, 42));
