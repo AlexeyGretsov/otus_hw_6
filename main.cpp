@@ -18,7 +18,18 @@ int main(int argc, char *argv[]) {
   std::cout << x << y << matrix[x][y] << std::endl;
   x++;
   y++;
+  matrix[x][y] = 43;
   std::cout << x << y << matrix[x][y] << std::endl;
+
+  std::cout << "Size: " << matrix.size() << std::endl;
+
+  matrix[x][y] = -1;
+  std::cout << x << y << matrix[x][y] << std::endl;
+
+  std::cout << 434 << 344 << matrix[434][344] << std::endl;
+
+  std::cout << "Size: " << matrix.size() << std::endl;
+
 
   // std::vector<std::tuple<size_t, size_t, int>> v;
 
